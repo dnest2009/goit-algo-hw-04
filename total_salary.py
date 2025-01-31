@@ -12,7 +12,7 @@ def total_salary(path):
         except:
             print("wrong data")    # помилка з даними у файлі
     else:
-        print("wrong path")   # файл не існує або це не файл
-
+        print("wrong path")   # файл не існує або це не файл 
+        
 total, average = total_salary("salary.txt")
 print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}")
